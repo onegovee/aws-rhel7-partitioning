@@ -1,5 +1,6 @@
 # aws-rhel7-partitioning
-This script addresses the CIS RHEL7 benchmark requirements for separate partitions.
+This script addresses the CIS RHEL7 benchmark requirements for separate partitions.  
+[v2.1.0](https://workbench.cisecurity.org/files/1466) was the latest benchmark at the time this script was initially developed.
 
 1.1.2 Ensure separate partition exists for /tmp (Scored)  
 1.1.3 Ensure nodev option set on /tmp partition (Scored)  
