@@ -90,7 +90,7 @@ xfs_admin -U 379de64d-ea11-4f5b-ae6a-0aa50ff7b24d $vol'2'
 
 if [ $vol = "/dev/xvda" ]
   then
-    printf "** Partitioning Automation Script Completed! **\nStop this instance, detach the volume from the other instance, and restart this instance.\n** Create an AMI from this instance **\n"
+    printf "** Partitioning Automation Script Completed!\n** Stop this instance, detach the volume from the other instance, and restart this instance.\n** Create an AMI from this instance **\n"
   else
-    printf "Partitioning procedure completed.\nStop this instance, detach the volume from the other instance and reattach it to its original instance with device name /dev/sda1.\n**Create an AMI from that other instance (NOT this instance)**\n"
+    printf "** Partitioning Automation Scipt Completed!\n** Stop this instance, detach the volume from the other instance and reattach it to its original instance with device name /dev/sda1.\n**Create an AMI from the other instance (NOT this instance)**\n"
 fi
